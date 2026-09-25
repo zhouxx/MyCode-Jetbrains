@@ -1,0 +1,53 @@
+MyCode-Jetbrains
+Copyright (c) 2026 [COPYRIGHT HOLDER]. All rights reserved.
+
+This product contains software derived from the third-party project identified
+below. That project is licensed under the MIT License, which requires that its
+copyright notice and permission notice be retained in copies and substantial
+portions of the software. The notice is reproduced here, and the full MIT
+License text follows.
+
+The MIT License applies only to those portions of this product that originate
+from the project named below. Modifications, additions, and other original
+works created for MyCode-Jetbrains are not licensed under the MIT License;
+they are governed by the LICENSE file in the root of this repository.
+
+
+------------------------------------------------------------------------------
+Derived work
+------------------------------------------------------------------------------
+
+  Project:    jetbrains-cc-gui (plugin "MyCode")
+  Repository: https://github.com/zhukunpenglinyutong/jetbrains-cc-gui
+  Copyright:  Copyright (c) 2026 zhukunpenglinyutong（朱昆鹏）
+  License:    MIT License
+
+  Contributions to that project were made by its author and by community
+  contributors, each of whom retains copyright in their own contributions.
+
+
+------------------------------------------------------------------------------
+MIT License
+------------------------------------------------------------------------------
+
+MIT License
+
+Copyright (c) 2026 zhukunpenglinyutong（朱昆鹏）
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
