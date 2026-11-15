@@ -137,6 +137,10 @@ Look at the git diff first, then give your conclusions against the checklist bel
 
 `name` uses lowercase letters, digits, and single hyphens, up to 64 characters, and can't start or end with a hyphen. If you omit `name`, the directory name is used. `description` goes into the skill list, so write it in a way that makes clear when the skill should be used.
 
+## Hooks
+
+Hooks are Groovy scripts you attach to a turn. They can inspect arguments, block a tool, change what goes back to the model, or stop the turn. The guide is in Chinese: [用户钩子](hooks.md).
+
 ## Where data lives
 
 ```
@@ -206,6 +210,6 @@ When diagnosing a turn that gets stuck, turn on tracing as described above and r
 
 ## License
 
-**MyCode is free to use, but it is not open source.** You may install and use it on any number of machines you own, at no charge for either personal or commercial purposes. You may not redistribute it, modify it, decompile it, incorporate it into another product, or use it to provide a service to third parties.
+**MyCode is free to use, but it is not open source.** You may install and use it on any number of machines you own, at no charge for either personal or commercial purposes. You may not redistribute it, modify it, decompile or reverse engineer it (including with REA or similar tools), incorporate it into another product, or use it to provide a service to third parties.
 
 The full terms are in [LICENSE](LICENSE), with a Chinese reference translation at [LICENSE.zh_CN](LICENSE.zh_CN). Third-party open-source components and their attributions are listed in [NOTICE](NOTICE).

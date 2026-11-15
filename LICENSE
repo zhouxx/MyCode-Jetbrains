@@ -1,5 +1,5 @@
 MYCODE-JETBRAINS — FREE-TO-USE PROPRIETARY LICENSE
-Version 1.0
+Version 1.1
 
 Copyright (c) 2026 [COPYRIGHT HOLDER]. All rights reserved.
 
@@ -8,8 +8,8 @@ distributed by [COPYRIGHT HOLDER] (the "Licensor"), including through the
 JetBrains Marketplace and any other channel authorized by the Licensor.
 
 THE SOFTWARE IS NOT OPEN SOURCE. Its source code is not published, and no
-right to access, copy, modify, or redistribute the source code is granted
-under this License.
+right to access, copy, modify, redistribute, decompile, or reverse engineer
+the Software or its source code is granted under this License.
 
 
 1. DEFINITIONS
@@ -53,24 +53,32 @@ under this License.
        in whole or in part;
 
    (c) reverse engineer, decompile, disassemble, or otherwise attempt to
-       derive the source code, underlying structure, ideas, or algorithms of
-       the Software;
+       derive, recover, or reconstruct the source code, bytecode, underlying
+       structure, ideas, algorithms, or internal behavior of the Software,
+       whether by hand or by any automated means;
 
    (d) remove, obscure, or alter any copyright notice, license notice,
        trademark, or other proprietary marking contained in or displayed by
        the Software;
 
    (e) bundle, embed, or incorporate the Software into any other product or
-       service, or use it to provide a service to third parties; or
+       service, or use it to provide a service to third parties;
 
    (f) circumvent or attempt to circumvent any technical protection, licensing
-       check, or activation mechanism of the Software, where applicable.
+       check, or activation mechanism of the Software, where applicable; or
 
-   The restrictions in Section 3(c) apply only to the extent permitted by
-   applicable law. Nothing in this License excludes any right You may have
-   under mandatory provisions of applicable law, including the right to
-   decompile for the purpose of achieving interoperability, where such a
-   right cannot be waived by contract.
+   (g) use, or instruct any person, software agent, or automated system to
+       use, any decompiler, disassembler, debugger, or other reverse-engineering
+       tool on the Software. This includes, without limitation, REA (Reverse
+       Engineer Anything) and any similar tool, service, model, or agent that
+       inspects a program without its source, recovers its structure or
+       behavior, or assists in reimplementing it.
+
+   The restrictions in Sections 3(c) and 3(g) apply only to the extent
+   permitted by applicable law. Nothing in this License excludes any right
+   You may have under mandatory provisions of applicable law, including the
+   right to decompile for the purpose of achieving interoperability, where
+   such a right cannot be waived by contract.
 
 
 4. RESERVATION OF RIGHTS
