@@ -139,7 +139,7 @@ Look at the git diff first, then give your conclusions against the checklist bel
 
 ## Hooks
 
-Hooks are Groovy scripts you attach to a turn. They can inspect arguments, block a tool, change what goes back to the model, or stop the turn. The guide is in Chinese: [用户钩子](hooks.md).
+Hooks are Groovy scripts you attach to a turn. They can inspect arguments, block a tool, change what goes back to the model, or stop the turn. See [Hooks](hooks.md).
 
 ## Where data lives
 
@@ -153,12 +153,16 @@ Hooks are Groovy scripts you attach to a turn. They can inspect arguments, block
       <workspaceId>.json   # current project only
   skills/                  # enabled user skills
   skills-disabled/         # user skills turned off in settings
+  hooks/                   # enabled user hooks
+  hooks-disabled/          # user hooks turned off in settings
   sessions/                # session jsonl
   traces/                  # logs, when tracing is on
 
 {project root}/.mycode/
   skills/
   skills-disabled/
+  hooks/
+  hooks-disabled/
 ```
 
 `workspaceId` is the first 16 hex characters of the SHA-256 of the normalized project root path. The real path is recorded in that file's `workspace.root`. Change machines or move the directory and the id changes, so it never reads another project's permission file.

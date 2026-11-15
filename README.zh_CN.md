@@ -139,7 +139,7 @@ description: 按清单审查当前改动，指出行为和测试缺口。
 
 ## 钩子
 
-钩子是你自己写的 Groovy 脚本，挂在一轮对话的时机上。可以看参数、拦下工具、改喂回模型的结果，或结束这一轮。完整说明见 [用户钩子](hooks.md)。
+钩子是你自己写的 Groovy 脚本，挂在一轮对话的时机上。可以看参数、拦下工具、改喂回模型的结果，或结束这一轮。完整说明见 [用户钩子](hooks.zh_CN.md)。
 
 ## 数据放哪
 
@@ -153,12 +153,16 @@ description: 按清单审查当前改动，指出行为和测试缺口。
       <workspaceId>.json   # 仅当前项目
   skills/                  # 启用的用户技能
   skills-disabled/         # 在设置里关掉的用户技能
+  hooks/                   # 启用的用户钩子
+  hooks-disabled/          # 在设置里关掉的用户钩子
   sessions/                # 会话 jsonl
   traces/                  # 打开追踪后的日志
 
 {项目根}/.mycode/
   skills/
   skills-disabled/
+  hooks/
+  hooks-disabled/
 ```
 
 `workspaceId` 是项目根路径规范化之后的 SHA-256 前 16 个十六进制字符。真实路径写在该文件的 `workspace.root`。换一台机器或换一个目录，id 会变，不会去读其它项目的权限文件。
